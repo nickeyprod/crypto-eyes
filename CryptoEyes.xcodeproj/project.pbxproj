@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54FBEF3F26BB0A1E0083B4BA /* CryptoEyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */; };
+		54FBEF4126BB0A1E0083B4BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF4026BB0A1E0083B4BA /* ContentView.swift */; };
+		54FBEF4326BB0A1F0083B4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */; };
+		54FBEF4626BB0A1F0083B4BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBEF4526BB0A1F0083B4BA /* Preview Assets.xcassets */; };
+		54FBEF5126BB0A1F0083B4BA /* CryptoEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF5026BB0A1F0083B4BA /* CryptoEyesTests.swift */; };
+		54FBEF5C26BB0A1F0083B4BA /* CryptoEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF5B26BB0A1F0083B4BA /* CryptoEyesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54FBEF4D26BB0A1F0083B4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FBEF3326BB0A1E0083B4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FBEF3A26BB0A1E0083B4BA;
+			remoteInfo = CryptoEyes;
+		};
+		54FBEF5826BB0A1F0083B4BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FBEF3326BB0A1E0083B4BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FBEF3A26BB0A1E0083B4BA;
+			remoteInfo = CryptoEyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54FBEF3B26BB0A1E0083B4BA /* CryptoEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEyesApp.swift; sourceTree = "<group>"; };
+		54FBEF4026BB0A1E0083B4BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54FBEF4526BB0A1F0083B4BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54FBEF4726BB0A1F0083B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FBEF4C26BB0A1F0083B4BA /* CryptoEyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoEyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FBEF5026BB0A1F0083B4BA /* CryptoEyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEyesTests.swift; sourceTree = "<group>"; };
+		54FBEF5226BB0A1F0083B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FBEF5726BB0A1F0083B4BA /* CryptoEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FBEF5B26BB0A1F0083B4BA /* CryptoEyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEyesUITests.swift; sourceTree = "<group>"; };
+		54FBEF5D26BB0A1F0083B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54FBEF3826BB0A1E0083B4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF4926BB0A1F0083B4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF5426BB0A1F0083B4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54FBEF3226BB0A1E0083B4BA = {
+			isa = PBXGroup;
+			children = (
+				54FBEF3D26BB0A1E0083B4BA /* CryptoEyes */,
+				54FBEF4F26BB0A1F0083B4BA /* CryptoEyesTests */,
+				54FBEF5A26BB0A1F0083B4BA /* CryptoEyesUITests */,
+				54FBEF3C26BB0A1E0083B4BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54FBEF3C26BB0A1E0083B4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF3B26BB0A1E0083B4BA /* CryptoEyes.app */,
+				54FBEF4C26BB0A1F0083B4BA /* CryptoEyesTests.xctest */,
+				54FBEF5726BB0A1F0083B4BA /* CryptoEyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FBEF3D26BB0A1E0083B4BA /* CryptoEyes */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */,
+				54FBEF4026BB0A1E0083B4BA /* ContentView.swift */,
+				54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */,
+				54FBEF4726BB0A1F0083B4BA /* Info.plist */,
+				54FBEF4426BB0A1F0083B4BA /* Preview Content */,
+			);
+			path = CryptoEyes;
+			sourceTree = "<group>";
+		};
+		54FBEF4426BB0A1F0083B4BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF4526BB0A1F0083B4BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54FBEF4F26BB0A1F0083B4BA /* CryptoEyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF5026BB0A1F0083B4BA /* CryptoEyesTests.swift */,
+				54FBEF5226BB0A1F0083B4BA /* Info.plist */,
+			);
+			path = CryptoEyesTests;
+			sourceTree = "<group>";
+		};
+		54FBEF5A26BB0A1F0083B4BA /* CryptoEyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF5B26BB0A1F0083B4BA /* CryptoEyesUITests.swift */,
+				54FBEF5D26BB0A1F0083B4BA /* Info.plist */,
+			);
+			path = CryptoEyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54FBEF3A26BB0A1E0083B4BA /* CryptoEyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FBEF6026BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyes" */;
+			buildPhases = (
+				54FBEF3726BB0A1E0083B4BA /* Sources */,
+				54FBEF3826BB0A1E0083B4BA /* Frameworks */,
+				54FBEF3926BB0A1E0083B4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoEyes;
+			productName = CryptoEyes;
+			productReference = 54FBEF3B26BB0A1E0083B4BA /* CryptoEyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54FBEF4B26BB0A1F0083B4BA /* CryptoEyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FBEF6326BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyesTests" */;
+			buildPhases = (
+				54FBEF4826BB0A1F0083B4BA /* Sources */,
+				54FBEF4926BB0A1F0083B4BA /* Frameworks */,
+				54FBEF4A26BB0A1F0083B4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FBEF4E26BB0A1F0083B4BA /* PBXTargetDependency */,
+			);
+			name = CryptoEyesTests;
+			productName = CryptoEyesTests;
+			productReference = 54FBEF4C26BB0A1F0083B4BA /* CryptoEyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54FBEF5626BB0A1F0083B4BA /* CryptoEyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FBEF6626BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyesUITests" */;
+			buildPhases = (
+				54FBEF5326BB0A1F0083B4BA /* Sources */,
+				54FBEF5426BB0A1F0083B4BA /* Frameworks */,
+				54FBEF5526BB0A1F0083B4BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FBEF5926BB0A1F0083B4BA /* PBXTargetDependency */,
+			);
+			name = CryptoEyesUITests;
+			productName = CryptoEyesUITests;
+			productReference = 54FBEF5726BB0A1F0083B4BA /* CryptoEyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54FBEF3326BB0A1E0083B4BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					54FBEF3A26BB0A1E0083B4BA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					54FBEF4B26BB0A1F0083B4BA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 54FBEF3A26BB0A1E0083B4BA;
+					};
+					54FBEF5626BB0A1F0083B4BA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 54FBEF3A26BB0A1E0083B4BA;
+					};
+				};
+			};
+			buildConfigurationList = 54FBEF3626BB0A1E0083B4BA /* Build configuration list for PBXProject "CryptoEyes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54FBEF3226BB0A1E0083B4BA;
+			productRefGroup = 54FBEF3C26BB0A1E0083B4BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54FBEF3A26BB0A1E0083B4BA /* CryptoEyes */,
+				54FBEF4B26BB0A1F0083B4BA /* CryptoEyesTests */,
+				54FBEF5626BB0A1F0083B4BA /* CryptoEyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54FBEF3926BB0A1E0083B4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FBEF4626BB0A1F0083B4BA /* Preview Assets.xcassets in Resources */,
+				54FBEF4326BB0A1F0083B4BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF4A26BB0A1F0083B4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF5526BB0A1F0083B4BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54FBEF3726BB0A1E0083B4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FBEF4126BB0A1E0083B4BA /* ContentView.swift in Sources */,
+				54FBEF3F26BB0A1E0083B4BA /* CryptoEyesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF4826BB0A1F0083B4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FBEF5126BB0A1F0083B4BA /* CryptoEyesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FBEF5326BB0A1F0083B4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FBEF5C26BB0A1F0083B4BA /* CryptoEyesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54FBEF4E26BB0A1F0083B4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FBEF3A26BB0A1E0083B4BA /* CryptoEyes */;
+			targetProxy = 54FBEF4D26BB0A1F0083B4BA /* PBXContainerItemProxy */;
+		};
+		54FBEF5926BB0A1F0083B4BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FBEF3A26BB0A1E0083B4BA /* CryptoEyes */;
+			targetProxy = 54FBEF5826BB0A1F0083B4BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54FBEF5E26BB0A1F0083B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54FBEF5F26BB0A1F0083B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54FBEF6126BB0A1F0083B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoEyes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54FBEF6226BB0A1F0083B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoEyes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CryptoEyes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54FBEF6426BB0A1F0083B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				INFOPLIST_FILE = CryptoEyesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoEyes.app/CryptoEyes";
+			};
+			name = Debug;
+		};
+		54FBEF6526BB0A1F0083B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				INFOPLIST_FILE = CryptoEyesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoEyes.app/CryptoEyes";
+			};
+			name = Release;
+		};
+		54FBEF6726BB0A1F0083B4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				INFOPLIST_FILE = CryptoEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoEyes;
+			};
+			name = Debug;
+		};
+		54FBEF6826BB0A1F0083B4BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8J723W5X5H;
+				INFOPLIST_FILE = CryptoEyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nickeyprod.CryptoEyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CryptoEyes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54FBEF3626BB0A1E0083B4BA /* Build configuration list for PBXProject "CryptoEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FBEF5E26BB0A1F0083B4BA /* Debug */,
+				54FBEF5F26BB0A1F0083B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FBEF6026BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FBEF6126BB0A1F0083B4BA /* Debug */,
+				54FBEF6226BB0A1F0083B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FBEF6326BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FBEF6426BB0A1F0083B4BA /* Debug */,
+				54FBEF6526BB0A1F0083B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FBEF6626BB0A1F0083B4BA /* Build configuration list for PBXNativeTarget "CryptoEyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FBEF6726BB0A1F0083B4BA /* Debug */,
+				54FBEF6826BB0A1F0083B4BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54FBEF3326BB0A1E0083B4BA /* Project object */;
+}
