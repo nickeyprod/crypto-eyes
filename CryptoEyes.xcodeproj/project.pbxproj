@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54FBEF3F26BB0A1E0083B4BA /* CryptoEyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */; };
-		54FBEF4126BB0A1E0083B4BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF4026BB0A1E0083B4BA /* ContentView.swift */; };
+		54FBEF4126BB0A1E0083B4BA /* FearAndGreedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF4026BB0A1E0083B4BA /* FearAndGreedView.swift */; };
 		54FBEF4326BB0A1F0083B4BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */; };
 		54FBEF4626BB0A1F0083B4BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FBEF4526BB0A1F0083B4BA /* Preview Assets.xcassets */; };
 		54FBEF5126BB0A1F0083B4BA /* CryptoEyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF5026BB0A1F0083B4BA /* CryptoEyesTests.swift */; };
 		54FBEF5C26BB0A1F0083B4BA /* CryptoEyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF5B26BB0A1F0083B4BA /* CryptoEyesUITests.swift */; };
+		54FBEF7426BB17EF0083B4BA /* ScaleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FBEF7326BB17EF0083B4BA /* ScaleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		54FBEF3B26BB0A1E0083B4BA /* CryptoEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEyesApp.swift; sourceTree = "<group>"; };
-		54FBEF4026BB0A1E0083B4BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54FBEF4026BB0A1E0083B4BA /* FearAndGreedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearAndGreedView.swift; sourceTree = "<group>"; };
 		54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54FBEF4526BB0A1F0083B4BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54FBEF4726BB0A1F0083B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		54FBEF5726BB0A1F0083B4BA /* CryptoEyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoEyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FBEF5B26BB0A1F0083B4BA /* CryptoEyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoEyesUITests.swift; sourceTree = "<group>"; };
 		54FBEF5D26BB0A1F0083B4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FBEF7326BB17EF0083B4BA /* ScaleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +97,12 @@
 		54FBEF3D26BB0A1E0083B4BA /* CryptoEyes */ = {
 			isa = PBXGroup;
 			children = (
+				54FBEF6C26BB0A890083B4BA /* Views */,
 				54FBEF3E26BB0A1E0083B4BA /* CryptoEyesApp.swift */,
-				54FBEF4026BB0A1E0083B4BA /* ContentView.swift */,
 				54FBEF4226BB0A1F0083B4BA /* Assets.xcassets */,
 				54FBEF4726BB0A1F0083B4BA /* Info.plist */,
 				54FBEF4426BB0A1F0083B4BA /* Preview Content */,
+				54FBEF7326BB17EF0083B4BA /* ScaleData.swift */,
 			);
 			path = CryptoEyes;
 			sourceTree = "<group>";
@@ -128,6 +131,14 @@
 				54FBEF5D26BB0A1F0083B4BA /* Info.plist */,
 			);
 			path = CryptoEyesUITests;
+			sourceTree = "<group>";
+		};
+		54FBEF6C26BB0A890083B4BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54FBEF4026BB0A1E0083B4BA /* FearAndGreedView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FBEF4126BB0A1E0083B4BA /* ContentView.swift in Sources */,
+				54FBEF4126BB0A1E0083B4BA /* FearAndGreedView.swift in Sources */,
 				54FBEF3F26BB0A1E0083B4BA /* CryptoEyesApp.swift in Sources */,
+				54FBEF7426BB17EF0083B4BA /* ScaleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
